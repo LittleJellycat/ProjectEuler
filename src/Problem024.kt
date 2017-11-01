@@ -5,7 +5,7 @@ fun main(args: Array<String>) {
     println(n.sorted()[999999])
 }
 
-fun getPermutations(numbers: List<Int>): List<List<Int>> {
+private fun getPermutations(numbers: List<Int>): List<List<Int>> {
     if (numbers.size == 1) return listOf(numbers)
     val out = mutableListOf<List<Int>>()
     val number = numbers[0]
