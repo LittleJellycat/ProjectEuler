@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
     println(p)
 }
 
-fun isPalindrome(n: Int): Boolean {
+private fun isPalindrome(n: Int): Boolean {
     return ((n % 10 == n / 100000) && ((n % 100) / 10 == (n % 100000) / 10000) && ((n % 1000) / 100 == (n % 10000) / 1000))
 }
 //123321
